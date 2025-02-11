@@ -26,7 +26,7 @@ export default function Skills() {
                 <div>
                     <p className="text-center mt-16 text-xl font-semibold font-serif border-2 border-slate-400 rounded mx-[350px] ">Skills</p>
                     <p className="text-center mt-7 font-light font-mono text-neutral-300">The Essential Web Development Skills I Have Learned and Applied</p>
-                    <div className="grid grid-cols-4 justify-items-center mx-64 my-20">
+                    <div className="grid grid-cols-4 gap-10 justify-items-center mx-64 my-20">
                         <Card image={html} name={"HTML"} />
                         <Card image={css} name={"CSS"} />
                         <Card image={tailwind} name={"Tailwind CSS"} />
@@ -39,7 +39,7 @@ export default function Skills() {
 
                 <div>
                     <p className="text-center mt-12 text-xl font-semibold font-serif border-2 border-slate-400 rounded mx-[350px] ">Tools</p>
-                    <p className="text-center mt-7 font-light font-mono text-neutral-300">Essential Tools That Helped Build This Project</p>
+                    <p className="text-center mt-7 font-light font-mono text-neutral-300">Necessary Tools That I Am Familiar With</p>
                     <div className="grid grid-cols-4 justify-items-center mx-64 my-20">
                         <Card image={canva} name={"Canva"} />
                         <Card image={vscode} name={"VS Code"} />
