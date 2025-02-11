@@ -1,7 +1,6 @@
 import React from 'react'
 import Navbar from '../component/Navbar'
 import ProjectCard from '../component/ProjectCard'
-import Footer from '../component/Footer'
 
 export default function Projects() {
     const info = [
@@ -47,7 +46,7 @@ export default function Projects() {
     return (
         <div>
             <Navbar />
-            <p className="text-center mt-16 text-3xl font-semibold font-serif border-2 border-slate-400 rounded mx-[600px] mb-20">My Projects</p>
+            <p className="text-center mt-12 text-xl font-serif border-2 border-slate-400 rounded mx-[350px] mb-14">My Projects</p>
             <ProjectCard info = {info}/>
         </div>
     )

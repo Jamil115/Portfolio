@@ -8,8 +8,8 @@ export default function Education() {
         <div>
             <Navbar />
             <EduInfo exam={"B.Sc. in Information & Communication Technology"} institute={"Bangladesh University of Professionals"} year={2025} result={"CGPA: 3.62"} />
-            <EduInfo exam={"HSC"} institute={"Dhaka Imperial College"} year={2020} result={"GPA: 3.62"} />
-            <EduInfo exam={"SSC"} institute={"KPB School & College"} year={2018} result={"GPA: 3.62"} />
+            <EduInfo exam={"HSC"} institute={"Dhaka Imperial College"} year={2020} result={"GPA: 5.00"} />
+            <EduInfo exam={"SSC"} institute={"KPB School & College"} year={2018} result={"GPA: 5.00"} />
             <Footer />
         </div>
     );

@@ -8,39 +8,39 @@ import { PiGraduationCapFill } from "react-icons/pi";
 export default function Navbar() {
   return (
     <div className="">
-      <div className="navbar h-28  ">
-        <div className=" w-screen">
-          <ul className="flex gap-x-14 mx-16 justify-end">
+      <div className="navbar h-16  ">
+        <div className="w-screen">
+          <ul className="flex gap-x-10 mx-10 justify-end">
             <li>
-            <a href="/" className="flex">
-                <FaHome className="text-2xl mx-2 mt-1"/>
-                <button className="text-2xl cursor-pointer">Home</button>
+            <a href="/" className="flex hover:text-neutral-400">
+                <FaHome className="text-xl mx-2 mt-1"/>
+                <button className="text-lg cursor-pointer">Home</button>
             </a>
             </li>
 
             <li>
-            <a href="/education" className="flex">
-                <PiGraduationCapFill className="text-2xl mx-2 mt-1"/>
-                <button className="text-2xl cursor-pointer">Education</button>
+            <a href="/education" className="flex hover:text-neutral-400">
+                <PiGraduationCapFill className="text-xl mx-2 mt-1"/>
+                <button className="text-lg cursor-pointer">Education</button>
             </a>
             </li>
 
             <li>
-            <a href="/skills" className="flex">
-                <BsCodeSlash className="text-2xl mx-2 mt-1"/>
-                <button className="text-2xl cursor-pointer">Skills</button>
+            <a href="/skills" className="flex hover:text-neutral-400">
+                <BsCodeSlash className="text-xl mx-2 mt-1"/>
+                <button className="text-lg cursor-pointer">Skills</button>
             </a>
             </li>
             <li>
-            <a href="/projects" className="flex">
-                <AiOutlineProject className="text-2xl mx-2 mt-1"/>
-                <button className="text-2xl cursor-pointer">Projects</button>
+            <a href="/projects" className="flex hover:text-neutral-400">
+                <AiOutlineProject className="text-xl mx-2 mt-1"/>
+                <button className="text-lg cursor-pointer">Projects</button>
             </a>
             </li>
             <li>
-              <a href="/cantact" className="flex">
-                <MdContacts className="text-2xl mx-2 mt-1"/>
-                <button className="text-2xl cursor-pointer">Contact</button>
+              <a href="/cantact" className="flex hover:text-neutral-400">
+                <MdContacts className="text-xl mx-2 mt-1"/>
+                <button className="text-lg cursor-pointer">Contact</button>
               </a>
             </li>
           </ul>
