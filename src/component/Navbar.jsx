@@ -38,7 +38,7 @@ export default function Navbar() {
             </a>
             </li>
             <li>
-              <a href="/cantact" className="flex hover:text-neutral-400">
+              <a href="/contact" className="flex hover:text-neutral-400">
                 <MdContacts className="text-xl mx-2 mt-1"/>
                 <button className="text-lg cursor-pointer">Contact</button>
               </a>
