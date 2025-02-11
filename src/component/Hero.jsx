@@ -7,7 +7,7 @@ import jamilImage from "../../public/jamil.png"
 export default function Hero() {
   return (
     <div className="h-[593px] flex items-center">
-        <div className="flex flex-col justify-center items-center h-[500px] border-2 rounded-4xl hover:bg-neutral-800 mx-52">
+        <div className="flex flex-col justify-center items-center h-[500px] border-2 rounded-4xl bg-neutral-800 mx-52">
         <div className="avatar mb-4">
             <div className="ring-primary ring-offset-base-100 w-32 rounded-full ring ring-offset-2">
                 <img src={jamilImage} />
@@ -27,8 +27,8 @@ export default function Hero() {
             <a href="https://x.com/Jamil_k710?t=BRAcRxIJzT8yeikFVVMwdg&s=09"><FaXTwitter /></a>
         </div>
         <div className="mt-8">
-            <button className="  font-semibold py-2 px-4 border-2 border-cyan-200 rounded-3xl mr-5 cursor-pointer hover:bg-black hover:border-white">Resume</button>
-            <button className=" font-semibold py-2 px-4 border-2 border-cyan-200 rounded-3xl cursor-pointer hover:bg-black hover:border-white">Contact Me</button>
+            <a href="/Resume.pdf" download><button className="font-semibold py-2 px-4 border-2 border-cyan-200 rounded-3xl mr-5 cursor-pointer hover:bg-black hover:border-white">Resume</button></a>
+            <a href="/contact"><button className=" font-semibold py-2 px-4 border-2 border-cyan-200 rounded-3xl cursor-pointer hover:bg-black hover:border-white">Contact Me</button></a>
         </div>
     </div>
     </div>
