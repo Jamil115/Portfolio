@@ -20,7 +20,7 @@ export default function Projects() {
                     type:"Github", 
                     link:"https://github.com/Jamil115/Shoppy"}
                 ],
-            image: {shoppy}
+            image: shoppy
         },
         {
             title: "BookShop",
@@ -31,7 +31,7 @@ export default function Projects() {
                     link:"https://github.com/Jamil115/BookStore"
                 }
             ],
-            image: {bookshop}
+            image: bookshop
         },
         {
             title: "MovieFlix - Movie Search Website ",
@@ -42,7 +42,7 @@ export default function Projects() {
                     link:"https://github.com/Jamil115/Movie-Search"
                 }
             ],
-            image: {moveflix}
+            image: moveflix
         }
     ]
 

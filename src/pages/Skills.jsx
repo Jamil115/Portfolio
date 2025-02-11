@@ -6,6 +6,7 @@ import Footer from "../component/Footer";
 import html from "../../public/HTML.png"
 import css from "../../public/css.png"
 import tailwind from "../../public/tailwind.png"
+import javascript from "../../public/javascript.png"
 import react from "../../public/react.png"
 import express from "../../public/express.png"
 import mongo from "../../public/mongo.png"
