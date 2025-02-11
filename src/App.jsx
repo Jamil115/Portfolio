@@ -26,7 +26,7 @@ function App() {
         element: <Projects />
       },
       {
-        path: '/cantact',
+        path: '/contact',
         element: <Contact />
       }
     ]
