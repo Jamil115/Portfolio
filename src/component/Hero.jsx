@@ -16,7 +16,7 @@ export default function Hero() {
         <div className="text-center">
             <p className=" mb-1 font-semibold">Hello! I'm </p>
             <h1 className="font-bold text-3xl mb-2 text-yellow-300 font-serif">Jamil Khan Riyed</h1>
-            <p className="text-md font-semibold mb-5">I'm a <span className="bg-cyan-600 text-white p-1">MERN Stack</span> Developer</p>
+            <p className="text-md font-semibold mb-5">I'm a <span className=" text-cyan-400 p-1">MERN Stack Developer</span></p>
             <p className="text-gray-300 mx-32 px-20 pb-5 ">I am a passionate fresher in front-end web development, skilled in HTML, CSS, and JavaScript. I enjoy creating responsive, visually appealing, and user-friendly websites</p>
         </div>
         <div className="flex gap-5 text-xl">
