@@ -2,6 +2,10 @@ import React from 'react'
 import Navbar from '../component/Navbar'
 import ProjectCard from '../component/ProjectCard'
 
+import shoppy from "../../public/shoppy.png"
+import bookshop from "../../public/bookshop.png"
+import moveflix from "../../public/moveflix.png"
+
 export default function Projects() {
     const info = [
         {
@@ -16,7 +20,7 @@ export default function Projects() {
                     type:"Github", 
                     link:"https://github.com/Jamil115/Shoppy"}
                 ],
-            image: "../../public/shoppy.png"
+            image: {shoppy}
         },
         {
             title: "BookShop",
@@ -27,7 +31,7 @@ export default function Projects() {
                     link:"https://github.com/Jamil115/BookStore"
                 }
             ],
-            image: "../../public/bookshop.png"
+            image: {bookshop}
         },
         {
             title: "MovieFlix - Movie Search Website ",
@@ -38,7 +42,7 @@ export default function Projects() {
                     link:"https://github.com/Jamil115/Movie-Search"
                 }
             ],
-            image: "../../public/moveflix.png"
+            image: {moveflix}
         }
     ]
 
