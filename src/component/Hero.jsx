@@ -2,6 +2,7 @@ import React from "react";
 import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { VscGithub } from "react-icons/vsc";
+import jamilImage from "../../public/jamil.png"
 
 export default function Hero() {
   return (
@@ -9,7 +10,7 @@ export default function Hero() {
         <div className="flex flex-col justify-center items-center h-[500px] border-2 rounded-4xl hover:bg-neutral-800 mx-52">
         <div className="avatar mb-4">
             <div className="ring-primary ring-offset-base-100 w-32 rounded-full ring ring-offset-2">
-                <img src="../../public/jamil.png"/>
+                <img src={jamilImage} />
             </div>
         </div>
         <div className="text-center">
