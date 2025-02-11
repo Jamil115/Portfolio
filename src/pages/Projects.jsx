@@ -5,6 +5,7 @@ import ProjectCard from '../component/ProjectCard'
 import shoppy from "../../public/shoppy.png"
 import bookshop from "../../public/bookshop.png"
 import moveflix from "../../public/moveflix.png"
+import Footer from '../component/Footer'
 
 export default function Projects() {
     const info = [
@@ -52,6 +53,7 @@ export default function Projects() {
             <Navbar />
             <p className="text-center mt-12 text-xl font-serif border-2 border-slate-400 rounded mx-[350px] mb-14">My Projects</p>
             <ProjectCard info = {info}/>
+            <Footer />
         </div>
     )
 }
